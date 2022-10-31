@@ -39,9 +39,9 @@ public class kadai_15 {
 
         int score_min = score[0];
 
-        for(int i = 0; i < score.length; i++){
-            if(score_min > score[i]){
-                score_min = score[i];
+        for (int j : score) {
+            if (score_min > j) {
+                score_min = j;
             }
         }
         return score_min;
@@ -52,9 +52,9 @@ public class kadai_15 {
 
         int score_max = score[0];
 
-        for(int i = 0; i < score.length; i++){
-            if(score_max < score[i]){
-                score_max = score[i];
+        for (int j : score) {
+            if (score_max < j) {
+                score_max = j;
             }
         }
         return score_max;
@@ -65,11 +65,10 @@ public class kadai_15 {
 
         int sum = 0;
 
-        for(int i = 0; i < score.length; i++){
-            sum = sum + score[i];
+        for (int j : score) {
+            sum = sum + j;
         }
-        double ave = (double) sum / (double) score.length;
-        return ave;
+        return (double) sum / (double) score.length;
 
     }
 
