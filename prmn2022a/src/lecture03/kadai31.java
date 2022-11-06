@@ -11,5 +11,6 @@ public class kadai31 {
         String input = scanner.nextLine();
 
         System.out.println("”" + input + "” と入力されました。");
+
     }
 }
