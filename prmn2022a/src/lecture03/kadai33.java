@@ -12,7 +12,9 @@ public class kadai33 {
         System.out.print("2つ目の整数を入力してください：");
         String b = input.nextLine();
 
-
+        int aa = Integer.parseInt(a);
+        int bb = Integer.parseInt(b);
+        System.out.println(aa + " + " + bb + " = " + (aa+bb));
 
     }
 }
