@@ -12,6 +12,7 @@ public class kadai32 {
         System.out.print("何行分入力しますか？：");
         int line = input.nextInt();
         String a = input.nextLine();
+//        数値を読み取る際、ストリームに改行コードが残ってしまうため、nextLine()で空読み
 
         for(int i = 0; i < line; i++){
             System.out.println(i + "行目：");
