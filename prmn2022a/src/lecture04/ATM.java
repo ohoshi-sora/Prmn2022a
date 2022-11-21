@@ -9,7 +9,7 @@ public class ATM {
     ArrayList<Account> accountList = new ArrayList<>();
 
     public ATM(){
-        List<Account> list = new ArrayList<>();
+        List<Account> accountList = new ArrayList<>();
     }
 
     public void registerAccount(String name, String number){
@@ -50,13 +50,14 @@ public class ATM {
                     System.out.println("口座番号：" + number + " から " + money + " 円引き出しました。残高：" + account.getBalance() + " 円です。");
                 }else{
                     System.out.println("口座番号：" + number + " から " + money + " 円引き出せませんでした。残高：" + account.getBalance() + " 円です。");
-                    return money;
+                    return 1;
                 }
             }
         }
-        return money;
+        return 0;
     }
 
 
 
 }
+
