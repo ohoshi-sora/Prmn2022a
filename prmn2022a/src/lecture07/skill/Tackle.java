@@ -1,4 +1,4 @@
 package lecture07.skill;
 
-public class Tackle {
+public class Tackle extends Skill{
 }

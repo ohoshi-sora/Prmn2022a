@@ -1,6 +1,6 @@
 package lecture07.skill;
 
-public class skill  {
+public class Skill {
 
     private String name;
     private int power;

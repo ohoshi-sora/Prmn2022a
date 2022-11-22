@@ -1,5 +1,5 @@
 package lecture07.skill;
 
-public class Ember {
+public class Ember extends Skill {
 
 }
