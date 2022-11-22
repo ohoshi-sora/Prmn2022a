@@ -1,6 +1,7 @@
 package lecture06;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -22,6 +23,9 @@ public class Kadai62 {
             System.out.println(list.get(x));
         } catch (IndexOutOfBoundsException e) {
             System.out.println("ArrayListの範囲外アクセスを確認しました.");
+            System.out.println("プログラムを終了します.");
+        } catch (InputMismatchException e){
+            System.out.println("整数以外の値が確認されました.");
             System.out.println("プログラムを終了します.");
         }
 
