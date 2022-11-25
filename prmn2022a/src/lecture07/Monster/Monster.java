@@ -34,6 +34,8 @@ public class Monster implements IMonster {
         return hp.getHP();
     }
 
+
+//
 //    まだできてない
     public void setHP(int hp) {
 
