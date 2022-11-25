@@ -1,16 +1,17 @@
 package lecture07.Monster;
 
+import java.util.ArrayList;
 import java.util.List;
 import lecture07.skill.Skill;
 
-public class Monster implements IMonster{
+public class Monster implements IMonster {
 
     private String name;
     private HP hp = new HP();
     private int power;
     private int defence;
     private int speed;
-    private List<Skill> skills;
+    private List<Skill> skills = new ArrayList<>(3);
 
     protected Monster(String name, int hp, int power, int defence, int speed, List<Skill> skills){
         this.name = name;
