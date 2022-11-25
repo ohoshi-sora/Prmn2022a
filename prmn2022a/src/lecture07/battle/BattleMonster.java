@@ -5,7 +5,7 @@ import lecture07.monster.Monster;
 
 public abstract class BattleMonster extends Monster implements IBattleMonster, IMonster{
 
-    private BattleMonster (IMonster monster){
+    protected BattleMonster (IMonster monster){
         super(monster);
     }
 
@@ -13,7 +13,7 @@ public abstract class BattleMonster extends Monster implements IBattleMonster, I
 
     }
 
-    private void receiveDamage(int damage, IMonster opponent){
+    protected void receiveDamage(int damage, IMonster opponent){
 
     }
 }

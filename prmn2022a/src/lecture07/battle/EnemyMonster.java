@@ -2,10 +2,10 @@ package lecture07.battle;
 
 import lecture07.monster.IMonster;
 
-public class EnemyMonster {
+public class EnemyMonster extends BattleMonster{
 
     public EnemyMonster(IMonster monster){
-
+        super(monster);
     }
 
     public int skillSelect(){
