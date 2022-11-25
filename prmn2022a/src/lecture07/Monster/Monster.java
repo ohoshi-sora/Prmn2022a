@@ -7,7 +7,7 @@ import lecture07.skill.Skill;
 public class Monster {
 
     private String name;
-    private HP hp;
+    private HP hp = new HP();
     private int power;
     private int defence;
     private int speed;
@@ -15,6 +15,35 @@ public class Monster {
 
     protected Monster(String name, int hp, int power, int defence, int speed, List<Skill> skills){
         this.name = name;
+        setHP(hp);
+        this.power = power;
+        this.defence = defence;
+        this.speed = speed;
+        this.skills = skills;
+    }
 
+    public String getName(){
+        return name;
+    }
+
+    public int getHP(){
+        return hp.getHP();
+    }
+
+//    まだできてない
+    public void setHP(int hp) {
+
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public int getDefence() {
+        return defence;
+    }
+
+    public boolean isAlive() {
+        return hp.isAlive();
     }
 }
