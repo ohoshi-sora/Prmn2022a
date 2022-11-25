@@ -1,10 +1,9 @@
 package lecture07.Monster;
 
 import java.util.List;
-import lecture07.Monster.HP;
 import lecture07.skill.Skill;
 
-public class Monster {
+public class Monster implements IMonster{
 
     private String name;
     private HP hp = new HP();
@@ -20,6 +19,10 @@ public class Monster {
         this.defence = defence;
         this.speed = speed;
         this.skills = skills;
+    }
+
+    protected Monster(IMonster monster){
+
     }
 
     public String getName(){
