@@ -1,4 +1,4 @@
-package lecture07.Monster;
+package lecture07.monster;
 
 public interface IMonster {
 

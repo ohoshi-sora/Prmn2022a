@@ -1,4 +1,4 @@
-package lecture07.Monster;
+package lecture07.monster;
 
 import lecture07.skill.Ember;
 import lecture07.skill.Scratch;

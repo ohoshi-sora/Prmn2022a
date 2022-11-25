@@ -1,4 +1,4 @@
-package lecture07.Monster;
+package lecture07.monster;
 
 import java.util.ArrayList;
 import java.util.List;
