@@ -14,7 +14,7 @@ public class Kadai62 {
 
         System.out.println("サイコロを5つ振りました.");
         for (int i = 0; i < 5; i++) {
-            list.add(random.nextInt(6));
+            list.add(random.nextInt(6)+1);
         }
         System.out.print("何番目のサイコロを確認しますか：");
 
